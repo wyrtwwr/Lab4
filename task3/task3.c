@@ -9,7 +9,7 @@ int main() {
 
     int n;
 
-    printf("Введите целое число: ");
+    printf("Р’РІРµРґРёС‚Рµ С†РµР»РѕРµ С‡РёСЃР»Рѕ: ");
     scanf("%d", &n);
     int last = (int)n % 10;
     int first = (int)n / 100;
@@ -17,8 +17,8 @@ int main() {
     int mid = (n / 10) % 10;  
     int sumaa = last + first + mid;
 
-    printf("Последняя цифра %d\n",last);
-    printf("первая цифра %d\n", first);
-    printf("средняя цифра %d\n", mid);
-    printf("сумма цифр %d\n", sumaa);
+    printf("РџРѕСЃР»РµРґРЅСЏСЏ С†РёС„СЂР° %d\n",last);
+    printf("РїРµСЂРІР°СЏ С†РёС„СЂР° %d\n", first);
+    printf("СЃСЂРµРґРЅСЏСЏ С†РёС„СЂР° %d\n", mid);
+    printf("СЃСѓРјРјР° С†РёС„СЂ %d\n", sumaa);
 }
