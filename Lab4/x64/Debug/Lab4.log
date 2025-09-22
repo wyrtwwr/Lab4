@@ -1,0 +1,2 @@
+﻿  task1.cpp
+C:\Users\prudn\source\repos\Lab4\Lab4\task1.cpp(14,1): error C4700: использована неинициализированная локальная переменная "i"

@@ -1,0 +1,7 @@
+﻿  task4.c
+C:\Users\prudn\source\repos\Lab4\task4\task4.c(18,11): warning C4476: "scanf": неизвестный символ поля типа " " в описателе формата
+C:\Users\prudn\source\repos\Lab4\task4\task4.c(18,31): warning C4474: "scanf" : для строки формата передано слишком много аргументов
+      C:\Users\prudn\source\repos\Lab4\task4\task4.c(18,31):
+      заполнители и их параметры ожидают переменное число аргументов в количестве 2, но было предоставлено 3
+  
+  task4.vcxproj -> C:\Users\prudn\source\repos\Lab4\x64\Debug\task4.exe
