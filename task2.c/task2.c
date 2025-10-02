@@ -24,4 +24,15 @@ int main() {
     printf("int = %d\n", x);
     printf("double = %.5e\n", z);
     printf("float = %.5f\n", y);
+
+    // Пункт 6
+    printf("(float)a/b = %.5f\n", (float)a / b);
+    printf("(double)a/b = %.5e\n", (double)a / b);
+
+    // Эксперименты со скобками
+    printf("\nЭксперименты со скобками:\n");
+    printf("(float)(a/b) = %.5f\n", (float)(a / b));    
+    printf("a/(float)b = %.5f\n", a / (float)b);       
+    printf("(float)a/(float)b = %.5f\n", (float)a / (float)b);
+
 }
