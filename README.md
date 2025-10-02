@@ -17,7 +17,7 @@
    - `  printf("Доступ разрешен (1 - да, 0 - нет): %d\n", condition);`
 5. **Конец**
 ### Блок-схема
-<img width="122" height="421" alt="Диаграмма без названия drawio" src="https://raw.githubusercontent.com/wyrtwwr/email-assets/refs/heads/main/lab4.png" />
+<img width="122" height="421" alt="Диаграмма без названия drawio" src="https://raw.githubusercontent.com/wyrtwwr/email-assets/refs/heads/main/%D0%BB%D0%B0%D0%B1%D0%B04_%D1%81%D1%85%D0%B5%D0%BC%D0%BA%D0%B0.jpg" />
 
 
 ## 2. Реализация программы
