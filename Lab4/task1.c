@@ -6,41 +6,43 @@
 
 int main() {
     setlocale(LC_ALL, "Russian");
+    //задание 1
+    char c = '!';
+    int i = 2;
+    float f = 3.14f;
+    double d = 5e-12;
+    printf("\nВсе значения:\n c='%c'\n i=%d\n f=%.2f\n d=%.12f\n", c, i, f, d);
+    //задание 2
 
-    char c;
-    int i;
-    float f;
-    double d;
-    char n = 1/i;
+    char c2;
+    int i2;
+    float f2;
+    double d2;
+    puts("Введите символ:");
+    scanf(" %c", &c2);
 
-    printf("Введите символ (char): ");
-    scanf(" %c", &c);
+    puts("Введите целое число:");
+    scanf("%d", &i2);
 
-    printf("Введите целое число (int): ");
-    scanf("%d", &i);
+    puts("Введите вещественное число (float):");
+    scanf("%f", &f2);
 
-    printf("Введите дробное число (float): ");
-    scanf("%f", &f);
+    puts("Введите вещественное число (double):");
+    scanf("%lf", &d2);
 
-    printf("Введите дробное число (double): ");
-    scanf("%lf", &d);
+    printf("\nВсе значения:\n c='%c'\n i=%d\n f=%.2f\n d=%.12f\n", c2, i2, f2, d2);
 
-    printf("\nВведенные значения:\n");
-    printf("char c = %c\n", c);
-    printf("int i = %d\n", i);
-    printf("float f = %.2f\n", f);
-    printf("double d = %.2e\n", d);
 
-    printf("Задани 1 А\n");
-    printf("Целая часть: %d\n", (int)f);
-    printf("дробнаячасть: %.5f\n", f - (int)f);
+    printf("Задани 1А\n");
+    printf("Целая часть: %d\n", (int)f2);
+    printf("дробнаячасть: %.5f\n", f2 - (int)f2);
 
-    printf("Задани 1 Б\n");
-    printf("Целая часть: %d\n", c);
-    printf("дробнаячасть: %.5f\n", f - (int)f);
-    printf("Шестнадцатеричный код: %X\n", c);
-    printf("Десятичный код: %d\n", c);
+    printf("Задани 1Б\n");
+    printf("Шестнадцатеричный код: %X\n", c2);
+    printf("Десятичный код: %d\n", c2);
 
-    printf("Задани 1 В\n");
-    printf("Десятичный код: %d\n", n);
+    printf("Задани 1в\n");
+    float delenie = 1.0 / i2;
+    printf("%.6f", delenie);
 }
+
